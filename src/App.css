@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+body {
+  background:linear-gradient(-120deg, #ffb900, #505050, #a3a3a3);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+      height: max-content;
+}
+#vignesh-typomob{
+  max-width: 3cm !important;
+  max-height:2cm;
+  margin: 0 auto;
+}
+#download-logo{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 4cm;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#download-typo{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+text-decoration: none;
+color: black;
+font-weight: bold;
+margin-top: 20px;
+font-size: xx-large;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
   color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+@media only screen and (min-width: 600px) {
+
+  #Appbar{
+    background:linear-gradient(-120deg, #ffb900, #a3a3a3);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    /* background-color: transparent; */
+
+  
   }
-  to {
-    transform: rotate(360deg);
+  #download-logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 10cm;
+  }
+  #about-typo{
+    margin-right: 1cm !important;
+    font-size: larger;
+  }
+  #navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+  }
+}
+
+#typewriter{
+  font-size: large;
+}
+#webdev{
+  margin-top: 50px;
+  max-width: 450px;
+  height: 400px;
+
+}
+
+#nav-logo :hover {
+  cursor: pointer;
+}
+#aboutcode{
+  max-width: 15cm;
+}
+#Skills-typo{
+  font-family: 'Orbitron', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  #aboutcode{
+    max-width: 5cm;
+  }
+ 
+  #skill-img{
+    max-width: 2cm !important;
+   
+  }
+  form {
+    width: 100%;
+  }
+  #skill-img_mobile{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+gap: 1rem !important;
+  }
+  #Appbar{
+    background:linear-gradient(-85deg, #eebd35, #a3a3a3);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    /* background-color: transparent; */
+
+  
+  }
+  #webdev{
+    max-width: fit-content !important;
+    height: 300px;
+    background-position: center;
+  
+  }
+  #about-typo{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: black;
+    font-size: larger;
   }
 }
