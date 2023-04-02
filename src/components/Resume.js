@@ -1,5 +1,5 @@
 import React from "react";
-import gif from "../assets/downloadlogo.png";
+import gif from "../assets/handy-line-downloading.gif";
 import resume from "../assets/vigneshresume.pdf";
 import { Card } from "@mui/material";
 
@@ -12,13 +12,14 @@ function Resume() {
         </h1>
       </div>
       <Card
+      data-aos="fade-right"
         id="download-logo"
         onClick={() => window.open(resume, "_target")}
         style={{
           maxWidth: "max-content",
           borderRadius: "10px",
           padding: "20px",
-          backgroundColor: "#FFD600",
+          backgroundColor: "transparent",
           cursor: "pointer",
         }}
       >

@@ -102,7 +102,7 @@ function DrawerAppBar(props) {
                 duration={500}
                 offset={-70} // adjust this value to match your header height
               >
-                <Button key={item.name} sx={{ color: "#252525" }}>
+                <Button key={item.name} sx={{ color: "black" }}>
                   {item.name}
                 </Button>
               </Link>

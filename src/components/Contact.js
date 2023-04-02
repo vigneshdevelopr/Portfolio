@@ -17,9 +17,11 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          alert('Your Message was successfully sent')
         },
         (error) => {
           console.log(error.text);
+          alert('You got an error while sending the message')
         }
       );
   };
