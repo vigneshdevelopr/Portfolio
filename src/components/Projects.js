@@ -14,6 +14,7 @@ import nodelogo from "../assets/icons8-node-js.svg";
 import livelogo from "../assets/icons8-youtube-live.svg";
 import clglogo from "../assets/stud-teachers.jpeg";
 import comingsoon from "../assets/comingsoon.jpg";
+import chatapp from "../assets/chatapp.png"
 
 const data = [
   {
@@ -25,6 +26,16 @@ const data = [
     react: "https://github.com/vigneshdevelopr/Stackoverflowclone_frontend",
     node: "https://github.com/vigneshdevelopr/StackoverflowClone_Backend",
     live: "https://inquisitive-gecko-1ed492.netlify.app/",
+  },
+  {
+    image: chatapp,
+    title: "Realtime Chat Application",
+    login: "LOGIN CREDENTIALS",
+    Email: "vigneshwebdevelopr@gmail.com",
+    password: "password@123",
+    react: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Frontend",
+    node: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Backend",
+    live: "https://chitchatzapp.netlify.app/",
   },
   {
     image: clglogo,
