@@ -15,6 +15,7 @@ import livelogo from "../assets/icons8-youtube-live.svg";
 import clglogo from "../assets/stud-teachers.jpeg";
 import comingsoon from "../assets/comingsoon.jpg";
 import chatapp from "../assets/chatapp.png"
+import ecommerce from "../assets/ecommerce-10.jpg"; 
 
 const data = [
   {
@@ -23,8 +24,8 @@ const data = [
     login: "LOGIN CREDENTIALS",
     Email: "vignesh@gmail.com",
     password: "password@123",
-    react: "https://github.com/vigneshdevelopr/Stackoverflowclone_frontend",
-    node: "https://github.com/vigneshdevelopr/StackoverflowClone_Backend",
+    Client: "https://github.com/vigneshdevelopr/Stackoverflowclone_frontend",
+    Server: "https://github.com/vigneshdevelopr/StackoverflowClone_Backend",
     live: "https://inquisitive-gecko-1ed492.netlify.app/",
   },
   {
@@ -33,9 +34,19 @@ const data = [
     login: "LOGIN CREDENTIALS",
     Email: "vigneshwebdevelopr@gmail.com",
     password: "password@123",
-    react: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Frontend",
-    node: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Backend",
+    Client: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Frontend",
+    Server: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Backend",
     live: "https://chitchatzapp.netlify.app/",
+  },
+  {
+    image: ecommerce,
+    title: "E-Commerce Web Application",
+    login: "LOGIN CREDENTIALS",
+    Email: "vigneshwebdevelopr@gmail.com",
+    password: "password@123",
+    Client: "https://github.com/vigneshdevelopr/E-Commerce-Website-Client",
+    Server: "https://github.com/vigneshdevelopr/E-Commerce-Website-Server",
+    live: "https://eliteemporium.netlify.app/",
   },
   {
     image: clglogo,
@@ -43,9 +54,9 @@ const data = [
     login: "LOGIN CREDENTIALS",
     Email: "no credentials",
     password: "no credentials",
-    react:
+    Client:
       "https://github.com/vigneshdevelopr/Crud-Api-Fetch-Stud-teach-database",
-    node: "https://github.com/vigneshdevelopr/Backend-API",
+    Server: "https://github.com/vigneshdevelopr/Backend-API",
     live: "https://celebrated-halva-24683e.netlify.app/",
   },
   {
@@ -54,9 +65,9 @@ const data = [
     login: "Will be Update shortly",
     Email: "",
     password: "",
-    react:
+    Client:
       "https://www.searchenginejournal.com/wp-content/uploads/2020/08/404-pages-sej-5f3ee7ff4966b-1520x800.webp",
-    node: "https://www.searchenginejournal.com/wp-content/uploads/2020/08/404-pages-sej-5f3ee7ff4966b-1520x800.webp",
+    Server: "https://www.searchenginejournal.com/wp-content/uploads/2020/08/404-pages-sej-5f3ee7ff4966b-1520x800.webp",
     live: "https://www.searchenginejournal.com/wp-content/uploads/2020/08/404-pages-sej-5f3ee7ff4966b-1520x800.webp",
   },
 ];
