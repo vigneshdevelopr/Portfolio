@@ -1,6 +1,6 @@
 import React from "react";
 import gif from "../assets/handy-line-downloading.gif";
-import resume from "../assets/Vignesh_Resume";
+import resume from "../assets/Vignesh_Resume.pdf";
 import { Card } from "@mui/material";
 
 function Resume() {

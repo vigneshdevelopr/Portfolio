@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/vignesh-typo.png";
-import resume from "../assets/Vignesh_Resume";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
