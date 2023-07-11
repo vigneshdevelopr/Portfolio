@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import React from "react";
 import Base from "./Base";
 import aboutcode from "../assets/aboutCode copy.png";
@@ -9,6 +9,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import AOS from "aos";
 import "aos/dist/aos.css"; 
+import resume from '../assets/Vignesh_Resume.pdf'
 // ..
 AOS.init();
 
@@ -66,7 +67,8 @@ function About() {
                   )
                 }
               />
-              <InstagramIcon
+              <Button onClick={() => window.open(resume, "_target")} style={{backgroundColor:'#252525',color:'#8D8D8D',marginTop:'-1rem'}} variant="contained">Resume</Button>
+              {/* <InstagramIcon
                 style={{ cursor: "pointer" }}
                 onClick={() =>
                   window.open(
@@ -74,7 +76,7 @@ function About() {
                     "_blank"
                   )
                 }
-              />
+              /> */}
             </div>
           </div>
         </Grid>

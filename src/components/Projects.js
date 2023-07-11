@@ -12,7 +12,7 @@ import flow from "../assets/stackoverflowicon.png";
 import reactlogo from "../assets/icons8-react.svg";
 import nodelogo from "../assets/icons8-node-js.svg";
 import livelogo from "../assets/icons8-youtube-live.svg";
-import clglogo from "../assets/stud-teachers.jpeg";
+import recipeimg from "../assets/recipetracker.webp";
 import comingsoon from "../assets/comingsoon.jpg";
 import chatapp from "../assets/chatapp.png"
 import ecommerce from "../assets/ecommerce-10.jpg"; 
@@ -49,15 +49,15 @@ const data = [
     live: "https://eliteemporium.netlify.app/",
   },
   {
-    image: clglogo,
-    title: "Student-Teachers Database",
+    image: recipeimg,
+    title: "Cookzzie-Recipe Tracking Application",
     login: "LOGIN CREDENTIALS",
-    Email: "no credentials",
-    password: "no credentials",
+    Email: "vigneshwebdevelopr@gmail.com",
+    password: "password@123",
     Client:
-      "https://github.com/vigneshdevelopr/Crud-Api-Fetch-Stud-teach-database",
-    Server: "https://github.com/vigneshdevelopr/Backend-API",
-    live: "https://celebrated-halva-24683e.netlify.app/",
+      "https://github.com/vigneshdevelopr/cookzzie-recipe-project-client",
+    Server: "https://github.com/vigneshdevelopr/cookzzie-recipe-project-server",
+    live: "https://cookzzie.netlify.app/",
   },
   {
     image: comingsoon,
@@ -82,6 +82,11 @@ export default function Projects() {
           <h1 id="Skills-typo" style={{ textAlign: "center" }}>
             Projects
           </h1>
+<div style={{textAlign:'center'}}>
+<h2>Common Credientials</h2>
+<p>Email: vigneshwebdevelopr@gmail.com</p>
+<p>Password: password@123</p>
+</div>
         </div>
         <div
           id="project-sec"
@@ -129,12 +134,12 @@ export default function Projects() {
                   sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
                 >
                   <IconButton
-                    onClick={() => window.open(content.react, "_blank")}
+                    onClick={() => window.open(content.Client, "_blank")}
                   >
                     <img src={reactlogo} />
                   </IconButton>
                   <IconButton
-                    onClick={() => window.open(content.node, "_blank")}
+                    onClick={() => window.open(content.Server, "_blank")}
                   >
                     <img src={nodelogo} />
                   </IconButton>
