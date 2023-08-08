@@ -44,8 +44,8 @@ const data = [
     login: "LOGIN CREDENTIALS",
     Email: "vigneshwebdevelopr@gmail.com",
     password: "password@123",
-    Client: "https://github.com/vigneshdevelopr/E-Commerce-Website-Client",
-    Server: "https://github.com/vigneshdevelopr/E-Commerce-Website-Server",
+    Client: "https://github.com/vigneshdevelopr/TownBazzar-frontend",
+    Server: "https://github.com/vigneshdevelopr/TownBazzar-backend",
     live: "https://townbazzar.netlify.app/",
   },
   {
