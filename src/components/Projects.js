@@ -26,7 +26,7 @@ const data = [
     password: "password@123",
     Client: "https://github.com/vigneshdevelopr/Stackoverflowclone_frontend",
     Server: "https://github.com/vigneshdevelopr/StackoverflowClone_Backend",
-    live: "https://inquisitive-gecko-1ed492.netlify.app/",
+    live: "https://stackoverflowcloning-client.onrender.com/",
   },
   {
     image: chatapp,
