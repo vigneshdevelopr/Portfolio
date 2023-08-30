@@ -36,7 +36,7 @@ const data = [
     password: "password@123",
     Client: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Frontend",
     Server: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Backend",
-    live: "https://chitchatzapp.netlify.app/",
+    live: "https://chitchatz-client.onrender.com",
   },
   {
     image: ecommerce,
