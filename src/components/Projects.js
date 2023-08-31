@@ -38,16 +38,7 @@ const data = [
     Server: "https://github.com/vigneshdevelopr/ChitChatz-App-Project-Backend",
     live: "https://chitchatz-client.onrender.com",
   },
-  {
-    image: ecommerce,
-    title: "TownBazzar E-Commerce application",
-    login: "LOGIN CREDENTIALS",
-    Email: "vigneshwebdevelopr@gmail.com",
-    password: "password@123",
-    Client: "https://github.com/vigneshdevelopr/TownBazzar-frontend",
-    Server: "https://github.com/vigneshdevelopr/TownBazzar-backend",
-    live: "https://townbazzar.netlify.app/",
-  },
+ 
   {
     image: recipeimg,
     title: "Cookzzie-Recipe Tracking Application",
@@ -57,7 +48,17 @@ const data = [
     Client:
       "https://github.com/vigneshdevelopr/cookzzie-recipe-project-client",
     Server: "https://github.com/vigneshdevelopr/cookzzie-recipe-project-server",
-    live: "https://cookzzie.netlify.app/",
+    live: "https://cookzzie.onrender.com",
+  },
+   {
+    image: ecommerce,
+    title: "TownBazzar E-Commerce application",
+    login: "LOGIN CREDENTIALS",
+    Email: "vigneshwebdevelopr@gmail.com",
+    password: "password@123",
+    Client: "https://github.com/vigneshdevelopr/TownBazzar-frontend",
+    Server: "https://github.com/vigneshdevelopr/TownBazzar-backend",
+    live: "https://townbazzar.netlify.app/",
   },
   {
     image: comingsoon,
