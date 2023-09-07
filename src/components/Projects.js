@@ -56,11 +56,11 @@ const data = [
     login: "Tech Stacks Used:",
     Email: "",
     password: "password@123",
-    Tech_Stacks: "React.js,Material_UI,Redux,HTML5/CSS",
-    Client: "https://github.com/vigneshdevelopr/React-Ecommerce-app",
+    Tech_Stacks: "React.js,Material_UI,Redux,Node.js,Payment_Gateway",
+    Client: "https://github.com/vigneshdevelopr/Ecommerce-Project",
         Server: "https://github.com/vigneshdevelopr/TownBazzar-backend",
 
-    live: "https://react-ecommerce-19z2.onrender.com",
+    live: "https://milkyman-shop.onrender.com",
   },
   // {
   //   image: dictionary,
